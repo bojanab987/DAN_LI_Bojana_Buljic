@@ -104,6 +104,11 @@
     <Compile Include="Model\vwUser.cs">
       <DependentUpon>MedicalCCModel.tt</DependentUpon>
     </Compile>
+    <Compile Include="Services\Serivce.cs" />
+    <Compile Include="Validations\BankAccountValidation.cs" />
+    <Compile Include="Validations\HealthInsuranceCardNoValidation.cs" />
+    <Compile Include="Validations\JMBGValidation.cs" />
+    <Compile Include="Validations\UsernameValidation.cs" />
     <Compile Include="ViewModel\MainWindowViewModel.cs" />
     <Compile Include="ViewModel\ViewModelBase.cs" />
     <Compile Include="View\LoginView.xaml.cs">
