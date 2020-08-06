@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="547409449a9441e2ada3acbf0d1428ca" Name="Diagram1">
+        <EntityTypeShape EntityType="MedicalCCModel.tblDoctor" Width="1.5" PointX="3" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MedicalCCModel.tblPatient" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="MedicalCCModel.tblSickLeave" Width="1.5" PointX="7.5" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="MedicalCCModel.tblUser" Width="1.5" PointX="0.75" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="MedicalCCModel.vwDoctor" Width="1.5" PointX="0.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MedicalCCModel.vwPatient" Width="1.5" PointX="2.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MedicalCCModel.vwSickLeave" Width="1.5" PointX="4.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MedicalCCModel.vwUser" Width="1.5" PointX="6.75" PointY="4.75" IsExpanded="true" />
+        <AssociationConnector Association="MedicalCCModel.FK__tblDoctor__UserI__3C69FB99" ManuallyRouted="false" />
+        <AssociationConnector Association="MedicalCCModel.FK__tblPatien__Docto__412EB0B6" ManuallyRouted="false" />
+        <AssociationConnector Association="MedicalCCModel.FK__tblPatien__UserI__403A8C7D" ManuallyRouted="false" />
+        <AssociationConnector Association="MedicalCCModel.FK__tblSickLe__Patie__440B1D61" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
