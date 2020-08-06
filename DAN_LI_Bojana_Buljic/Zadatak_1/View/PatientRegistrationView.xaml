@@ -18,15 +18,15 @@
         <Grid.RowDefinitions>
             <RowDefinition Height="20" />
             <RowDefinition Height="auto" />
-            <RowDefinition Height="18" />
+            <RowDefinition Height="10" />
             <RowDefinition Height="auto" />
-            <RowDefinition Height="18" />
+            <RowDefinition Height="10" />
             <RowDefinition Height="auto" />
-            <RowDefinition Height="18" />
+            <RowDefinition Height="10" />
             <RowDefinition Height="auto" />
-            <RowDefinition Height="18" />
+            <RowDefinition Height="10" />
             <RowDefinition Height="auto" />
-            <RowDefinition Height="18" />
+            <RowDefinition Height="10" />
             <RowDefinition Height="auto" />
             <RowDefinition Height="20" />
             <RowDefinition Height="auto" />
@@ -107,7 +107,7 @@
         </TextBox>
         <Button Grid.Column="1"
                 Grid.Row="13"
-                Content="Save"
+                Content="Register"
                 Width="100"
                 HorizontalAlignment="Left"
                 Command="{Binding Register}">
